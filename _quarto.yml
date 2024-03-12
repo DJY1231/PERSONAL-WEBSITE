@@ -1,0 +1,21 @@
+project:
+  type: website 
+  output-dir: docs
+
+website:
+  title: "Dong_Jun_website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - contact.qmd
+
+format:
+  html:
+    theme: pulse
+    css: styles.css
+    toc: true
+
+
+
